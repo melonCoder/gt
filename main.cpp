@@ -146,7 +146,10 @@ void goto_dir(vector<string>* const matchedPath, const string destDir,
 
 void usage() {
     cout << "Usage:" << endl;
-    cout << "    gt [DIR]" << endl;
+    cout << "    gt [OPTION] DIR [-D]" << endl << endl;
+    cout << "option list:" << endl;
+    cout << "    -max-depth=[MAX-DEPTH] where MAX-DEPTH is a integer indicating how depth gt will go through" << endl;
+    cout << "    -D means means debug mode is specified" << endl;
 }
 
 int main(int argc, char* argv[]){
