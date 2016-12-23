@@ -1,3 +1,9 @@
+/* File   : main.cpp
+ * AUTHOR : meloncoder (meloncoder@gmail.com)
+ * DATE   : 12-23-2016
+ * VERSION: 0.1.0
+ */
+
 #include <unistd.h>
 #include <sys/param.h>
 #include <sys/stat.h>
